@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>MSPR</title>
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        custom_green:"#73A03A"
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body class="relative bg-radial bg-main text-slate-900">
+<nav class="z-50">
+    <a href="#" class="fixed top-0 right-0 z-50 p-[25px]">
+        <svg fill="#fff" class="w-[50px] h-[50px]" height="512" viewBox="0 0 32 32" width="512"
+             xmlns="http://www.w3.org/2000/svg">
+            <g id="Layer_3" data-name="Layer 3">
+                <path d="m11 14.414v7.435a.152.152 0 0 0 .152.151h9.7a.152.152 0 0 0 .148-.151v-7.435l-5-5z"/>
+                <path d="m16 1a15 15 0 1 0 15 15 15.017 15.017 0 0 0 -15-15zm8.207 15.207a.95.95 0 0 1 -1.207.138v5.5a2.154 2.154 0 0 1 -2.152 2.155h-9.7a2.154 2.154 0 0 1 -2.148-2.151v-5.5a.986.986 0 0 1 -1.207-.138 1 1 0 0 1 0-1.414l1.5-1.5 6-6a1 1 0 0 1 1.414 0l6 6 1.5 1.5a1 1 0 0 1 0 1.41z"/>
+            </g>
+        </svg>
+    </a>
+</nav>
+<div class="z-10 fixed top-0 left-0 text-[400px] text-white opacity-50 transform -rotate-12 -translate-y-1/3 -translate-x-1/5 select-none pointer-events-none">
+    <h1>GO Securi</h1>
+</div>
+<section class="w-screen h-[99vh] p-[60px] pr-[160px] flex justify-center items-center relative">
+    <section class="w-full h-full bg-radial drop-shadow-2xl z-50 rounded grid grid-cols-1 lg:grid-cols-10">
+        <div class="absolute top-0 left-0 bg-slate-900 w-[150px] h-[100px] lg:h-[80px] rounded-r-2xl mt-[30px] lg:mt-[50px] flex justify-center items-center">
+            <svg class="w-[60px] h-[60px] lg:w-[40px] lg:h-[40px]" fill="#fff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path d="M360,96H254.4c1.2-3.6,1.6-7.2,1.6-11.2V56c0-13.2-10.8-24-24-24h-64c-13.2,0-24,10.8-24,24v28.8c0,3.6,0.8,7.6,1.6,11.2
+				H40c-22,0-40,18-40,40v192c0,22,18,40,40,40h320c22,0,40-18,40-40V136C400,114,382,96,360,96z M160,56c0-4.4,3.6-8,8-8h64
+				c4.4,0,8,3.6,8,8v28.8c0,5.6-2,10.8-5.2,14.8c0,0,0,0,0,0.4l-28.4,35.6c-2,2.8-4.8,2.8-6,2.8s-4-0.4-6-2.8L165.6,100
+				c-3.6-4.4-5.6-10-5.6-15.2V56z M384,328c0,13.2-10.8,24-24,24H40c-13.2,0-24-10.8-24-24V136c0-13.2,10.8-24,24-24h112
+				c0.8,0,1.6,0,2.4-0.4l26.8,34c4.4,5.6,11.2,9.2,18.8,9.2c7.2,0,14-3.2,18.8-9.2l26.8-33.6c0.8,0,1.6,0,2.4,0h112
+				c13.2,0,24,10.8,24,24V328z"/>
+            <path d="M190.4,261.6c-6.8-22-20.8-30.4-37.6-35.6c7.2-10,11.2-22.4,11.2-34c0-26.4-21.6-48-48-48c-26.4,0-48,21.6-48,48
+				c0,11.6,4.4,24,11.6,34.4C64,231.6,50.4,240,43.6,262l-6.8,24.4c-1.2,4.4-0.4,8.8,2,12.4c2.8,3.6,6.8,5.6,11.2,5.6h134
+				c4.4,0,8.4-2,11.2-5.6c2.8-3.6,3.2-8,2-12.4L190.4,261.6z M116,160c17.6,0,32,14.4,32,32c0,18-14.8,40-32,40
+				c-6,0-11.2-2.4-16-6.4c-0.4-0.4-1.2-1.2-1.6-1.6C90,216,84,203.2,84,192C84,174.4,98.4,160,116,160z M52.8,288l6-21.6
+				C63.6,250,73.6,244,92,239.6c7.2,5.2,15.2,8.4,24,8.4c9.2,0,17.2-3.2,24.4-8.8c20,5.2,29.6,10.4,34.8,26.8l6,22H52.8z"/>
+            <path d="M188,80h24c4.4,0,8-3.6,8-8s-3.6-8-8-8h-24c-4.4,0-8,3.6-8,8S183.6,80,188,80z"/>
+            <path d="M344,192H216c-4.4,0-8,3.6-8,8c0,4.4,3.6,8,8,8h128c4.4,0,8-3.6,8-8C352,195.6,348.4,192,344,192z"/>
+            <path d="M268,224h-52c-4.4,0-8,3.6-8,8c0,4.4,3.6,8,8,8h52c4.4,0,8-3.6,8-8C276,227.6,272.4,224,268,224z"/>
+            <path d="M316,224h-12c-4.4,0-8,3.6-8,8c0,4.4,3.6,8,8,8h12c4.4,0,8-3.6,8-8C324,227.6,320.4,224,316,224z"/>
+		</g>
+	</g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+</svg>
+        </div>
+        <article class="col-span-1 lg:col-span-7 flex-col p-[25px] lg:p-[50px] justify-between items-center">
+            <div class="w-full h-1/4">
+                <div class="pl-[150px]">
+                    <h2 class="text-3xl lg:text-xl">#LoremIpsum(id)</h2>
+                    <h2 class="text-2xl lg:text-lg">Nom Prenom</h2>
+                    <h2 class="text-2xl lg:text-lg opacity-90">Poste lorem ipsum</h2>
+                </div>
+            </div>
+            <div class="bg-slate-800 w-full h-3/4 rounded drop-shadow-2xl p-[50px] grid grid-cols-2 gap-[20px] grid-rows-10">
+                <div class="flex text-slate-50">
+                    <svg class="w-[40px] h-[40px] lg:w-[25px] lg:h-[25px]" fill="#73a03a" height="512"
+                         viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="cek">
+                            <path d="m18.25244 14.91406a5.27054 5.27054 0 0 1 -5.26514 5.26465h-5.47021a5.27044 5.27044 0 0 1 -5.26465-5.26465v-5.47021a5.27086 5.27086 0 0 1 5.26465-5.26514h7.80464a1.00011 1.00011 0 0 1 0 2h-7.80464a3.26856 3.26856 0 0 0 -3.26465 3.26514v5.47021a3.26846 3.26846 0 0 0 3.26465 3.26465h5.47021a3.26887 3.26887 0 0 0 3.26514-3.26465 1 1 0 0 1 2 0zm3.20215-10.7998a.99962.99962 0 0 0 -1.41406 0l-8.68408 8.68408-3.39405-4.19287a1.00008 1.00008 0 0 0 -1.55464 1.25786l4.09273 5.05659a.99966.99966 0 0 0 1.48437.07813l9.46973-9.46973a.99964.99964 0 0 0 0-1.41406z"/>
+                        </g>
+                    </svg>
+                    <div class="ml-[20px] flex justify-center items-start">
+                        <p class="mt-[5px] lg:mt-0 text-xl">
+                            nom de l'équipement
+                        </p>
+                    </div>
+                </div>
+                <div class="flex text-slate-50">
+                    <svg class="w-[40px] h-[40px] lg:w-[25px] lg:h-[25px]" fill="#73a03a" height="512"
+                         viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="cek">
+                            <path d="m18.25244 14.91406a5.27054 5.27054 0 0 1 -5.26514 5.26465h-5.47021a5.27044 5.27044 0 0 1 -5.26465-5.26465v-5.47021a5.27086 5.27086 0 0 1 5.26465-5.26514h7.80464a1.00011 1.00011 0 0 1 0 2h-7.80464a3.26856 3.26856 0 0 0 -3.26465 3.26514v5.47021a3.26846 3.26846 0 0 0 3.26465 3.26465h5.47021a3.26887 3.26887 0 0 0 3.26514-3.26465 1 1 0 0 1 2 0zm3.20215-10.7998a.99962.99962 0 0 0 -1.41406 0l-8.68408 8.68408-3.39405-4.19287a1.00008 1.00008 0 0 0 -1.55464 1.25786l4.09273 5.05659a.99966.99966 0 0 0 1.48437.07813l9.46973-9.46973a.99964.99964 0 0 0 0-1.41406z"/>
+                        </g>
+                    </svg>
+                    <div class="ml-[20px] flex justify-center items-start">
+                        <p class="mt-[5px] lg:mt-0 text-xl">
+                            nom de l'équipement
+                        </p>
+                    </div>
+                </div>
+                <div class="flex text-slate-50">
+                    <svg class="w-[40px] h-[40px] lg:w-[25px] lg:h-[25px]" fill="#73a03a" height="512"
+                         viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="cek">
+                            <path d="m18.25244 14.91406a5.27054 5.27054 0 0 1 -5.26514 5.26465h-5.47021a5.27044 5.27044 0 0 1 -5.26465-5.26465v-5.47021a5.27086 5.27086 0 0 1 5.26465-5.26514h7.80464a1.00011 1.00011 0 0 1 0 2h-7.80464a3.26856 3.26856 0 0 0 -3.26465 3.26514v5.47021a3.26846 3.26846 0 0 0 3.26465 3.26465h5.47021a3.26887 3.26887 0 0 0 3.26514-3.26465 1 1 0 0 1 2 0zm3.20215-10.7998a.99962.99962 0 0 0 -1.41406 0l-8.68408 8.68408-3.39405-4.19287a1.00008 1.00008 0 0 0 -1.55464 1.25786l4.09273 5.05659a.99966.99966 0 0 0 1.48437.07813l9.46973-9.46973a.99964.99964 0 0 0 0-1.41406z"/>
+                        </g>
+                    </svg>
+                    <div class="ml-[20px] flex justify-center items-start">
+                        <p class="mt-[5px] lg:mt-0 text-xl">
+                            nom de l'équipement
+                        </p>
+                    </div>
+                </div>
+                <div class="flex text-slate-50">
+                    <svg class="w-[40px] h-[40px] lg:w-[25px] lg:h-[25px]" fill="#73a03a" height="512"
+                         viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="cek">
+                            <path d="m18.25244 14.91406a5.27054 5.27054 0 0 1 -5.26514 5.26465h-5.47021a5.27044 5.27044 0 0 1 -5.26465-5.26465v-5.47021a5.27086 5.27086 0 0 1 5.26465-5.26514h7.80464a1.00011 1.00011 0 0 1 0 2h-7.80464a3.26856 3.26856 0 0 0 -3.26465 3.26514v5.47021a3.26846 3.26846 0 0 0 3.26465 3.26465h5.47021a3.26887 3.26887 0 0 0 3.26514-3.26465 1 1 0 0 1 2 0zm3.20215-10.7998a.99962.99962 0 0 0 -1.41406 0l-8.68408 8.68408-3.39405-4.19287a1.00008 1.00008 0 0 0 -1.55464 1.25786l4.09273 5.05659a.99966.99966 0 0 0 1.48437.07813l9.46973-9.46973a.99964.99964 0 0 0 0-1.41406z"/>
+                        </g>
+                    </svg>
+                    <div class="ml-[20px] flex justify-center items-start">
+                        <p class="mt-[5px] lg:mt-0 text-xl">
+                            nom de l'équipement
+                        </p>
+                    </div>
+                </div>
+                <div class="flex text-slate-50">
+                    <svg class="w-[40px] h-[40px] lg:w-[25px] lg:h-[25px]" fill="#73a03a" height="512"
+                         viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="cek">
+                            <path d="m18.25244 14.91406a5.27054 5.27054 0 0 1 -5.26514 5.26465h-5.47021a5.27044 5.27044 0 0 1 -5.26465-5.26465v-5.47021a5.27086 5.27086 0 0 1 5.26465-5.26514h7.80464a1.00011 1.00011 0 0 1 0 2h-7.80464a3.26856 3.26856 0 0 0 -3.26465 3.26514v5.47021a3.26846 3.26846 0 0 0 3.26465 3.26465h5.47021a3.26887 3.26887 0 0 0 3.26514-3.26465 1 1 0 0 1 2 0zm3.20215-10.7998a.99962.99962 0 0 0 -1.41406 0l-8.68408 8.68408-3.39405-4.19287a1.00008 1.00008 0 0 0 -1.55464 1.25786l4.09273 5.05659a.99966.99966 0 0 0 1.48437.07813l9.46973-9.46973a.99964.99964 0 0 0 0-1.41406z"/>
+                        </g>
+                    </svg>
+                    <div class="ml-[20px] flex justify-center items-start">
+                        <p class="mt-[5px] lg:mt-0 text-xl">
+                            nom de l'équipement
+                        </p>
+                    </div>
+                </div>
+                <div class="flex text-slate-50">
+                    <svg class="w-[40px] h-[40px] lg:w-[25px] lg:h-[25px]" fill="#73a03a" height="512"
+                         viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="cek">
+                            <path d="m18.25244 14.91406a5.27054 5.27054 0 0 1 -5.26514 5.26465h-5.47021a5.27044 5.27044 0 0 1 -5.26465-5.26465v-5.47021a5.27086 5.27086 0 0 1 5.26465-5.26514h7.80464a1.00011 1.00011 0 0 1 0 2h-7.80464a3.26856 3.26856 0 0 0 -3.26465 3.26514v5.47021a3.26846 3.26846 0 0 0 3.26465 3.26465h5.47021a3.26887 3.26887 0 0 0 3.26514-3.26465 1 1 0 0 1 2 0zm3.20215-10.7998a.99962.99962 0 0 0 -1.41406 0l-8.68408 8.68408-3.39405-4.19287a1.00008 1.00008 0 0 0 -1.55464 1.25786l4.09273 5.05659a.99966.99966 0 0 0 1.48437.07813l9.46973-9.46973a.99964.99964 0 0 0 0-1.41406z"/>
+                        </g>
+                    </svg>
+                    <div class="ml-[20px] flex justify-center items-start">
+                        <p class="mt-[5px] lg:mt-0 text-xl">
+                            nom de l'équipement
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </article>
+        <article class="col-span-3 flex justify-center items-start">
+            <div class="pt-[100px]">
+                <div class="w-[500px] h-[500px] lg:w-[300px] lg:h-[300px] relative">
+                    <img src="Ressourceslorian-gretillat-zj_9WewVEw0-unsplash.jpg" alt="img"
+                         class="w-full h-full absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 rounded-2xl z-40">
+                    <img src="Ressourceslorian-gretillat-zj_9WewVEw0-unsplash.jpg" alt="img"
+                         class="w-full h-full absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 scale-95
+                         rounded-2xl z-30 mt-[25px] opacity-50">
+                    <img src="Ressourceslorian-gretillat-zj_9WewVEw0-unsplash.jpg" alt="img"
+                         class="w-full h-full absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 scale-90
+                         rounded-2xl z-20 mt-[50px] opacity-25">
+                </div>
+            </div>
+        </article>
+    </section>
+</section>
+</body>
+<style>
+    :root {
+        --blue-custom: #030B31;
+    }
+
+    * {
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+        transition: all ease-in-out .3s;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        pointer-events: auto;
+    }
+
+    body {
+        box-sizing: border-box;
+        display: inline-block;
+        width: 100vw;
+        max-width: 100vw;
+        clear: both;
+        overflow-x: hidden;
+    }
+
+    html {
+        overflow-x: hidden;
+        max-width: 100vw;
+        scroll-behavior: smooth
+    }
+
+    nav a {
+        text-decoration: none
+    }
+
+    a:focus, a:hover, button:focus, button:hover {
+        filter: saturate(120%) brightness(120%);
+        transition: all ease-in-out .2s
+    }
+
+    a, button, h1, h2, h3, h4, h5, h6 {
+        font-weight: 500;
+    }
+
+    .bg-radial {
+        background: radial-gradient(100% 189.66% at 0% 35.83%, rgba(127, 191, 254, 0.5) 0%, rgba(233, 184, 242, 0.5) 27.08%, rgba(255, 225, 224, 0.5) 54.17%, rgba(255, 247, 245, 0.5) 100%), #FFFFFF;
+        position: relative;
+    }
+
+    .bg-main:after {
+        position: fixed;
+        content: "";
+        right: 0;
+        top: 0;
+        width: 100px;
+        height: 100vh;
+        background: var(--blue-custom);
+        z-index: 10;
+        pointer-events: none;
+    }
+</style>
+<script>
+
+</script>
+</html>
